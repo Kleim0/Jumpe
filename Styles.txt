@@ -1,0 +1,52 @@
+Page Background: background: #32333a;
+Container Background: background-color: #282930;
+
+
+Text Colour: color: #dddddd;
+Text Font: font-family: "Montserrat", sans-serif;
+Letter Spacing: letter-spacing: 0.5px;
+
+Border: border: 2.5px solid #18181c;
+Border Radius: border-radius: 16px;
+
+-HOVER-
+Clickable Item Hovering: background-color: #32333a;
+
+-PAGE SETUP-
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background: #32333a;
+    color: #dddddd;
+    font-family: "Montserrat", sans-serif;
+    overflow: hidden;
+    letter-spacing: 0.5px;
+}
+
+.item {
+    background-color: #282930;
+    border: 2.5px solid #18181c;
+    border-radius: 16px;
+}
+
+.button {
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    user-select: none;
+    transition-duration: 300ms;
+    border: 2.5px solid #18181c;
+    border-radius: 16px;
+}
+
+.button:hover{
+    background-color: #32333a;
+    box-shadow: 6px 6px #222328;
+}
+
+google color #35363a

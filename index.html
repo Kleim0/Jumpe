@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OGga Voooba</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="duck.png" rel="icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="button-container">
+        <button type="button" class="button" onclick="player.left();">Left</button>
+        <button type="button" class="button" onclick="player.jump();">Jump</button>
+        <button type="button" class="button" onclick="player.slam();">Slam</button>
+        <button type="button" class="button" onclick="player.right();">Right</button>
+    </div>
+
+    <canvas id="canvas" width="1200px" height="600px"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #dddddd;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: #32333a;
+    overflow: hidden;    
+    text-align: center;
+}
+
+#canvas {
+    margin: 25px;
+    background-color: #282930;
+    border: 6px solid #18181c;
+    border-radius: 16px;
+}
+
+#button-container {
+    margin-top: 25px;
+}
+
+.button {
+    margin-inline: 5px;
+    padding: 5px;
+    width: 60px;
+    background-color: #282930;
+    border: 3px solid #18181c;
+    border-radius: 4px;
+    transition-duration: 300ms;
+}
+
+.button:hover{
+    background-color: #32333a;
+    box-shadow: 6px 6px #222328;
+    transition-duration: 100ms;
+}
